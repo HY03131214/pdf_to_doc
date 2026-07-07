@@ -1,0 +1,50 @@
+[
+ {
+  "page": 8,
+  "type": "chapter",
+  "title": "第五章疲劳试验",
+  "chapter_num": "五"
+ },
+ {
+  "page": 9,
+  "type": "chapter",
+  "title": "第一章概 述",
+  "chapter_num": "一"
+ },
+ {
+  "page": 26,
+  "type": "chapter",
+  "title": "第二章可靠性寿命试验的数学方法",
+  "chapter_num": "二"
+ },
+ {
+  "page": 44,
+  "type": "chapter",
+  "title": "第三章可靠性试验与寿命试验",
+  "chapter_num": "三"
+ },
+ {
+  "page": 62,
+  "type": "chapter",
+  "title": "第四章液压元件的失效",
+  "chapter_num": "四"
+ },
+ {
+  "page": 78,
+  "type": "chapter",
+  "title": "第五章",
+  "chapter_num": "五"
+ },
+ {
+  "page": 94,
+  "type": "chapter",
+  "title": "第六章磨损试验",
+  "chapter_num": "六"
+ },
+ {
+  "page": 107,
+  "type": "chapter",
+  "title": "第七章液压元件可靠性寿命试验方法",
+  "chapter_num": "七"
+ }
+]

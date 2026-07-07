@@ -1,0 +1,43 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://api.deepseek.com/anthropic",
+    "ANTHROPIC_AUTH_TOKEN": "sk-aebcd50184ca4ba4b4b857ff5acd9c36",
+    "ANTHROPIC_MODEL": "deepseek-v4-pro[1m]",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-v4-pro[1m]",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "deepseek-v4-pro[1m]",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-v4-flash",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "deepseek-v4-flash",
+    "CLAUDE_CODE_EFFORT_LEVEL": "max"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(*)",
+      "Read(*)",
+      "Edit(*)",
+      "Write(*)",
+      "WebSearch(*)",
+      "WebFetch(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "NotebookEdit(*)",
+      "Agent(*)",
+      "TaskOutput(*)",
+      "TaskCreate(*)",
+      "Bash(mkdir -p \"C:/Users/lenovo/Desktop/文档整理/.claude/skills\")",
+      "Bash(cp -r /tmp/anthropic-skills-clone/skills/docx \"C:/Users/lenovo/Desktop/文档整理/.claude/skills/\")",
+      "Bash(cp -r /tmp/anthropic-skills-clone/skills/pdf \"C:/Users/lenovo/Desktop/文档整理/.claude/skills/\")",
+      "mcp__ide__executeCode"
+    ],
+    "approvals": [
+      "Bash(git push:*)",
+      "Bash(git push --force:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git branch -D:*)",
+      "Bash(rm -rf:*)",
+      "Bash(sudo:*)",
+      "Bash(chmod 777:*)",
+      "Bash(curl:* | bash)",
+      "Bash(wget:* -O - | bash)"
+    ]
+  }
+}
